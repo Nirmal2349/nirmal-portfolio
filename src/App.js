@@ -1,23 +1,28 @@
 import "./App.scss";
-// import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
-// import Stack from "@mui/material/Stack";
-// import Button from "@mui/material/Button";
-// import HomeIcon from "@mui/icons-material/Home";
-// import WorkspacePremiumIcon from "@mui/icons-material/WorkspacePremium";
-// import ContactMailIcon from "@mui/icons-material/ContactMail";
-// import { About } from "./components/About";
-import { Particle } from "./components/Particle";
+// import { Particle } from "./components/Particle";
+import React from "react";
+import { Routes, Route} from "react-router-dom";
+import { About } from "./components/About";
+import { Project } from "./components/Project";
+import { Contact } from "./components/Contact";
 import { Navbar } from "./components/Navbar";
+// import "./index.scss";
 
 function App() {
   return (
     <div>
-      <Particle />
-      <div className="header">
+      <div>
         <Navbar />
       </div>
+      <Routes>
+        <Route path="/" element={<About />} />
+        <Route path="/Project" element={<Project />} />
+        <Route path="/Contact" element={<Contact />} />
+      </Routes>
     </div>
   );
 }
+
+
 
 export default App;

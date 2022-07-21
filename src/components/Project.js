@@ -1,7 +1,15 @@
 import React from "react";
 
-export function Project() {
-  return <div>Project</div>;
-}
 
-export default Project;
+
+
+export function Project() {
+  return (
+   <div>
+    Project kkkkkkkkkkk
+   </div>
+    
+
+  )
+  }
+

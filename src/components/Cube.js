@@ -10,7 +10,7 @@ import * as React from "react";
 
 export function Cube() {
   return (
-    <div id="wrapper">
+    <div className="wrapper">
       <div className="box-area">
         <div id="box-front" class="box">
           <FaJsSquare color="#FFFF00" />
