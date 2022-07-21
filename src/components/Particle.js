@@ -1,7 +1,7 @@
 import React from "react";
 import Particles from "react-tsparticles";
 import { loadFull } from "tsparticles";
-
+// import { Navbar } from "./Navbar";
 export function Particle() {
   const particlesInit = async (main) => {
     await loadFull(main);
@@ -10,6 +10,7 @@ export function Particle() {
   const particlesLoaded = (container) => {
     console.log(container);
   };
+
   return (
     <div>
       <Particles
