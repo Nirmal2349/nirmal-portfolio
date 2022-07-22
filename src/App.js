@@ -11,13 +11,15 @@ import { Navbar } from "./components/Navbar";
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Particle />
-        <Navbar />
+      <div>
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/Project" element={<Project />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
+      </div>
     </div>
   );
 }

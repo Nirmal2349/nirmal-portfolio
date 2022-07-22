@@ -4,6 +4,10 @@
   height: 60px;
   align-items: center;
   justify-content: center;
+  margin: 10px;
+  position:sticky;
+  z-index: 1;
+
 }
 
 .navlink {
@@ -30,7 +34,7 @@
   color: rgba(21, 122, 230, 0.829);
 }
 .about_social {
-  display:flex;
+  display: flex;
   gap: 50px;
   color: red;
 }
@@ -120,8 +124,6 @@
 .atag {
   text-decoration: none;
 }
-
-
 
 .wrapper {
   position: absolute;
