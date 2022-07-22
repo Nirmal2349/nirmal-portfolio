@@ -12,7 +12,7 @@ export function Particle() {
   };
 
   return (
-    <div>
+    <div className="particlecss">
       <Particles
         id="tsparticles"
         init={particlesInit}

@@ -13,13 +13,13 @@ function App() {
     <div className="App">
       <Navbar />
       <Particle />
-      <div>
+      
         <Routes>
           <Route path="/" element={<About />} />
           <Route path="/Project" element={<Project />} />
           <Route path="/Contact" element={<Contact />} />
         </Routes>
-      </div>
+  
     </div>
   );
 }
