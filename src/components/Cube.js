@@ -6,7 +6,7 @@ import {
   FaNode,
   FaDatabase,
 } from "react-icons/fa";
-import * as React from "react";
+import React from "react";
 
 export function Cube() {
   return (

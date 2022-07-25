@@ -1,12 +1,14 @@
 import React from "react";
-
-
+import { Exp } from "./experience";
+  
 
 
 export function Project() {
   return (
    <div>
-    Project kkkkkkkkkkk
+  project title
+  
+    <Exp/>
    </div>
     
 

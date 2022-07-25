@@ -268,3 +268,78 @@
     },
   }}
 />; */}
+
+
+
+<div className="exp">
+      <h5>Skills</h5>
+      <div className="container experience__container">
+        <div className="experience__frontend">
+          <h4>Frontend Development</h4>
+          <div className="experience__content">
+            <div className="experience__details">
+              <h5>
+                <BsPatchCheckFill /> HTML
+              </h5>
+            </div>
+            <div className="experience__details">
+              <h5>
+                <BsPatchCheckFill /> CSS
+              </h5>
+            </div>
+            <div className="experience__details">
+              <h5>
+                <BsPatchCheckFill /> JS
+              </h5>
+            </div>
+            <div className="experience__details">
+              <h5>
+                <BsPatchCheckFill /> React js
+              </h5>
+            </div>
+            <div className="experience__details">
+              <h5>
+                <BsPatchCheckFill /> Bootsrap
+              </h5>
+            </div>
+            <div className="experience__details">
+              <h5>
+                <BsPatchCheckFill /> MUI
+              </h5>
+            </div>
+          </div>
+        </div>
+        <div className="experience__backend">
+          <h4>Backend Development</h4>
+          <div className="experience__content">
+            <div className="experience__details">
+              {/* <div className="experience__details_icons"> */}
+              <h5>
+                <BsPatchCheckFill /> Node js
+              </h5>
+              {/* </div> */}
+            </div>
+            <div className="experience__details">
+              <h5>
+                <BsPatchCheckFill /> Express js
+              </h5>
+            </div>
+            <div className="experience__details">
+              <h5>
+                <BsPatchCheckFill /> SQL
+              </h5>
+            </div>
+            <div className="experience__details">
+              <h5>
+                <BsPatchCheckFill /> MongoDB
+              </h5>
+            </div>
+            <div className="experience__details">
+              <h5>
+                <BsPatchCheckFill /> AWS
+              </h5>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
