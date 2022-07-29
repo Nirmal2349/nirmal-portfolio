@@ -10,9 +10,9 @@ import { NavLink } from "react-router-dom";
 
 export function About() {
   return (
-    <div>
-      <div className="about_data">
-        <div className="about_title">
+    <div className="about_data">
+      <div className="about_title">
+        <div>
           <h1>
             Hi, <br></br> I'm <span className="about_color">S Nirmal</span>
             <br></br>Full-Stack Developer
@@ -61,7 +61,9 @@ export function About() {
           </div>
         </div>
       </div>
-      <Cube />
+      <div className="about_cubic">
+        <Cube />
+      </div>
     </div>
   );
 }

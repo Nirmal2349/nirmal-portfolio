@@ -19,13 +19,7 @@
   color: red;
 }
 
-.about_title {
-  position: absolute;
-  top: 225px;
-  right: 150px;
-  font-size: 20px;
-  color: lightgreen;
-}
+
 
 .about_color {
   color: rgba(21, 122, 230, 0.829);
@@ -176,8 +170,6 @@
 
 //  }
 
-
-
 .experience__container {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -198,7 +190,7 @@
 .experience__container > div h3 {
   text-align: center;
   margin-bottom: 2rem;
-  color: var(--color-primary)
+  color: var(--color-primary);
 }
 .experience__content {
   display: grid;
@@ -206,10 +198,10 @@
   row-gap: 2rem;
 }
 .experience__details {
-    display: flex;
-    gap: 1rem;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+  align-items: center;
 }
 // .experience__details-icon {
 //   margin-top: 0.3rem;
@@ -243,10 +235,10 @@
   }
 }
 
-.container{
-  color:wheat;
+.container {
+  color: wheat;
 }
- 
+
 .portfolio__container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -285,7 +277,6 @@
   margin-top: auto;
 }
 
-
 /* Media queries (medium devices)*/
 @media screen and (max-width: 1024px) {
   .portfolio__container {
@@ -301,3 +292,24 @@
     gap: 1rem;
   }
 }
+
+
+.about_title {
+
+}
+.about_cubic{
+
+}
+
+.about_data{
+
+}
+
+
+
+
+
+
+
+
+
