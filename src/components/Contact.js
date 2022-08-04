@@ -3,7 +3,11 @@ import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
 import { FiMail, FiPhoneCall } from "react-icons/fi";
-import { RiMessengerLine } from "react-icons/ri";
+import { Animationrouter } from "./animationrouter";
+import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
+import AttachEmailIcon from "@mui/icons-material/AttachEmail";
+
+
 
 
 export function Contact() {
@@ -32,34 +36,38 @@ export function Contact() {
   };
 
   return (
-    <div className="container contact__container">
-      <div className="contact__options">
-        <div className="contact__option">
-          <FiMail />
-          <h4>Email</h4>
-          <p className="text-light">nirmalrajr35@gmail.com</p>
+    <Animationrouter>
+      <div className="contact__container">
+        <div className="contact__options">
+          
+            <p className="text-light">
+              <AttachEmailIcon sx={{ fontSize: 40 }} />
+              nirmalrajr35@gmail.com
+            </p>
+          
+          <br></br>
+          
+            <p className="text-light">
+              <PhoneInTalkIcon sx={{ fontSize: 40 }} />
+              +91 9543838686
+            </p>
+          
         </div>
-        <br></br>
-        <article className="contact__option">
-          <FiPhoneCall />
-          <h4>Phone</h4>
-          <p className="text-light">+91 9543838686</p>
-        </article>
+        <div className="inbox">
+          <StyledContactForm>
+            <form ref={form} onSubmit={sendEmail}>
+              <input type="text" name="user_name" placeholder="Name" />
+              <br></br>
+              <input type="email" name="user_email" placeholder="Email" />
+              <br></br>
+              <textarea name="message" placeholder="Message" />
+              <br></br>
+              <input type="submit" value="Send" />
+            </form>
+          </StyledContactForm>
+        </div>
       </div>
-      <div className="inbox">
-        <StyledContactForm>
-          <form ref={form} onSubmit={sendEmail}>
-            <input type="text" name="user_name" placeholder="Name" />
-            <br></br>
-            <input type="email" name="user_email" placeholder="Email" />
-            <br></br>
-            <textarea name="message" placeholder="Message" />
-            <br></br>
-            <input type="submit" value="Send" />
-          </form>
-        </StyledContactForm>
-      </div>
-    </div>
+    </Animationrouter>
   );
 }
 
@@ -67,15 +75,15 @@ export function Contact() {
       width: 400px;
       form {
         display: flex;
-      align-items: flex-start;
       flex-direction: column;
-      width: 100%;
+      
       font-size: 16px;
+      padding-left: 40px;
       input {
         width: 100%;
       height: 35px;
       padding: 7px;
-      outline: none;
+      
       border-radius: 5px;
       border: 1px solid rgb(220, 220, 220);
       &:focus {
