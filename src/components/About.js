@@ -25,7 +25,7 @@ export function About() {
             <div className="about_title" style={{ color: "white" }}>
               <h1 className="text__decor">
                 Hi, <br></br> I'm <span className="about_color">Nirmal</span>
-                <br></br>MERN-Stack Developer
+                <br></br>Frontend Developer
               </h1>
               <Stack spacing={18} direction="row">
                 <a href={CV} download className="atag">
