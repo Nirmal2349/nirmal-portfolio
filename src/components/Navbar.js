@@ -7,7 +7,7 @@ export function Navbar() {
   return (
     <div className="navbar">
       <div className="navlink">
-        <NavLink activeclassName="active" className="link" to="/">
+        <NavLink activeclassName="active" className="link" to="/" >
           <HomeIcon sx={{ fontSize: "40px" }} />
         </NavLink>
         <NavLink activeclassName="active" className="link" to="/Project">
