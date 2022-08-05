@@ -12,22 +12,22 @@ export function Cube() {
   return (
     <div className="wrapper">
       <div className="box-area">
-        <div id="box-front" class="box">
+        <div id="box-front" className="box">
           <FaJsSquare color="#FFFF00" />
         </div>
-        <div id="box-right" class="box">
+        <div id="box-right" className="box">
           <FaCss3Alt color="#F06529" />
         </div>
-        <div id="box-back" class="box">
+        <div id="box-back" className="box">
           <FaNode color="#008000" />
         </div>
-        <div id="box-left" class="box">
+        <div id="box-left" className="box">
           <FaReact color="#00BFFF" />
         </div>
-        <div id="box-top" class="box">
+        <div id="box-top" className="box">
           <FaDatabase color="#D2691E" />
         </div>
-        <div id="box-bottom" class="box">
+        <div id="box-bottom" className="box">
           <FaHtml5 color="#DD0031" />
         </div>
       </div>

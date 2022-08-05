@@ -50,7 +50,7 @@ export function Project() {
 
         <section id="portfolio">
           <div className="project_head">
-            <h2>Portfolio</h2>
+            <h2>Sample-Project</h2>
           </div>
           <div className="container portfolio__container">
             {data.map((item) => (

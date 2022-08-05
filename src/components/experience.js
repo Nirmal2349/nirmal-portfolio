@@ -7,7 +7,17 @@ export function Exp() {
   return (
     <Animationrouter>
       <div id="experience">
-        <h3 style={{ textAlign: "center", color: " #c87d24" }}>Skills</h3>
+        <h3
+          style={{
+            textAlign: "center",
+            color: "rgb(12 134 145)",
+            fontFamily:
+              " Cambria, Cochin, Georgia, Times, 'Times New Roman', serif",
+            fontSize: "30px",
+          }}
+        >
+          Skills
+        </h3>
 
         <div className="container experience__container">
           <div className="experience__fe">

@@ -6,7 +6,9 @@ import { FiMail, FiPhoneCall } from "react-icons/fi";
 import { Animationrouter } from "./animationrouter";
 import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 import AttachEmailIcon from "@mui/icons-material/AttachEmail";
-
+import LocationOnIcon from "@mui/icons-material/LocationOn";
+import Box from "@mui/system/Box";
+import Grid from "@mui/system/Unstable_Grid";
 
 
 
@@ -37,36 +39,41 @@ export function Contact() {
 
   return (
     <Animationrouter>
-      <div className="contact__container">
-        <div className="contact__options">
-          
-            <p className="text-light">
-              <AttachEmailIcon sx={{ fontSize: 40 }} />
-              nirmalrajr35@gmail.com
-            </p>
-          
-          <br></br>
-          
-            <p className="text-light">
-              <PhoneInTalkIcon sx={{ fontSize: 40 }} />
-              +91 9543838686
-            </p>
-          
-        </div>
-        <div className="inbox">
-          <StyledContactForm>
-            <form ref={form} onSubmit={sendEmail}>
-              <input type="text" name="user_name" placeholder="Name" />
-              <br></br>
-              <input type="email" name="user_email" placeholder="Email" />
-              <br></br>
-              <textarea name="message" placeholder="Message" />
-              <br></br>
-              <input type="submit" value="Send" />
-            </form>
-          </StyledContactForm>
-        </div>
-      </div>
+      <Box sx={{ flexGrow: 1 }} className="container__contact">
+        <Grid container spacing={3}>
+          <Grid xs={12} md={4} lg={6}>
+            <div className="contact__detail">
+              <p className="text-light">
+                <AttachEmailIcon sx={{ fontSize: 40 }} />
+                nirmalrajr35@gmail.com
+              </p>
+              <p className="text-light">
+                <PhoneInTalkIcon sx={{ fontSize: 40 }} />
+                +91 9543838686
+              </p>
+              <p className="text-light">
+                <LocationOnIcon sx={{ fontSize: 40 }} />
+                Devakottai, Tamilnadu
+              </p>
+            </div>
+          </Grid>
+          <Grid xs={12} md={8} lg={6}>
+            <div className="inbox">
+              <StyledContactForm>
+                <form ref={form} onSubmit={sendEmail}>
+                  <input type="text" name="user_name" placeholder="Name" />
+                  <br></br>
+                  <input type="email" name="user_email" placeholder="Email" />
+                  <br></br>
+                  <textarea name="message" placeholder="Message" />
+                  <br></br>
+                  <input type="submit" value="Send" />
+                </form>
+              </StyledContactForm>
+            </div>
+          </Grid>
+        </Grid>
+      </Box>
     </Animationrouter>
   );
 }
