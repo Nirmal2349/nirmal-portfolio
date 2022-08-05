@@ -2,7 +2,6 @@ import React from "react";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import styled from "styled-components";
-import { FiMail, FiPhoneCall } from "react-icons/fi";
 import { Animationrouter } from "./animationrouter";
 import PhoneInTalkIcon from "@mui/icons-material/PhoneInTalk";
 import AttachEmailIcon from "@mui/icons-material/AttachEmail";

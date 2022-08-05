@@ -7,9 +7,7 @@ export function Particle() {
     await loadFull(main);
   };
 
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
+  const particlesLoaded = (container) => {};
 
   return (
     <div className="particlecss">
