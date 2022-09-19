@@ -3,7 +3,7 @@ import Button from "@mui/material/Button";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
 import { Cube } from "./Cube";
-import CV from "../assets/resume.pdf";
+import CV from "../assets/NirmalSResume.pdf";
 import React from "react";
 import { NavLink } from "react-router-dom";
 import { Grid } from "@mui/material";
