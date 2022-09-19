@@ -1,3 +1,4 @@
+import React from "react";
 import HomeIcon from "@mui/icons-material/Home";
 import WorkspacePremiumIcon from "@mui/icons-material/WorkspacePremium";
 import ContactMailIcon from "@mui/icons-material/ContactMail";
@@ -7,7 +8,7 @@ export function Navbar() {
   return (
     <div className="navbar">
       <div className="navlink">
-        <NavLink activeClassName="active" className="link" to="/" >
+        <NavLink activeClassName="active" className="link" to="/">
           <HomeIcon sx={{ fontSize: "40px" }} />
         </NavLink>
         <NavLink activeClassName="active" className="link" to="/Project">
