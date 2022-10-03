@@ -8,13 +8,28 @@ export function Navbar() {
   return (
     <div className="navbar">
       <div className="navlink">
-        <NavLink activeClassName="active" className="link" to="/">
+        <NavLink
+          activestyle={{
+            color: "white",
+          }}
+          to="/"
+        >
           <HomeIcon sx={{ fontSize: "40px" }} />
         </NavLink>
-        <NavLink activeClassName="active" className="link" to="/Project">
+        <NavLink
+          activestyle={{
+            color: "white",
+          }}
+          to="/Project"
+        >
           <WorkspacePremiumIcon sx={{ fontSize: "40px" }} />
         </NavLink>
-        <NavLink activeClassName="active" className="link" to="/Contact">
+        <NavLink
+          activestyle={{
+            color: "white",
+          }}
+          to="/Contact"
+        >
           <ContactMailIcon sx={{ fontSize: "40px" }} />
         </NavLink>
       </div>

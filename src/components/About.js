@@ -48,31 +48,40 @@ export function About() {
                   <a
                     href="https://github.com/Nirmal2349"
                     rel="noreferrer"
-                    activeClassName="active"
+                    activestyle={{
+                      color: "white",
+                    }}
                     target="_blank"
                   >
                     <GitHubIcon sx={{ fontSize: 40 }} color="primary" />
                   </a>
+                  GitHub
                 </Button>
-                <Button>
+                <Button >
                   <a
                     href="https://linkedin.com/in/nirmalraj2349"
                     rel="noreferrer"
-                    activeClassName="active"
+                    activestyle={{
+                      color: "white",
+                    }}
                     target="_blank"
                   >
                     <LinkedInIcon sx={{ fontSize: 40 }} color="primary" />
                   </a>
+                  LinkedIn
                 </Button>
                 <Button>
                   <a
                     href="https://app.netlify.com/teams/nirmal2349/overview"
                     rel="noreferrer"
-                    activeClassName="active"
+                    activestyle={{
+                      color: "white",
+                    }}
                     target="_blank"
                   >
                     <AccountTreeIcon sx={{ fontSize: 40 }} color="primary" />
                   </a>
+                  Heroku
                 </Button>
                 <br></br>
                 <br></br>
