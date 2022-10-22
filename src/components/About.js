@@ -81,7 +81,7 @@ export function About() {
                   >
                     <AccountTreeIcon sx={{ fontSize: 40 }} color="primary" />
                   </a>
-                  Heroku
+                  Netlify
                 </Button>
                 <br></br>
                 <br></br>
